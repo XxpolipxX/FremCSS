@@ -1,0 +1,10 @@
+a {text-decoration: none;}
+
+.normal_link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.normal_link:visited {color: purple;}
+.normal_link:hover {text-decoration: underline;}
+.normal_link:active {color: red;}
