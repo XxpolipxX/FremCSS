@@ -116,3 +116,8 @@ body {
     display: grid;
     grid-template-columns: repeat(5, 20%);
 }
+
+.collumns_6 {
+    display: grid;
+    grid-template-columns: repeat(6, 16%);
+}

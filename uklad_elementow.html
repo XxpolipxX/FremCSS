@@ -73,22 +73,19 @@
     <div class="main">
         <div>
             <h2 class="color_text_dark_gray">
-                <p>Instalacja i Konfiguracja</p>
+                <p>Układ elementów</p>
             </h2>
             <div class="color_background_full_white color_text_dark_gray">
-                <p>Na tej podstronie jest opisany proces instalacji i konfiguracji FremCSS na własnej stronie.</p>
+                <p>Na tej podstronie zostały opisane możliwe układy elementów na stronie.</p>
             </div>
-            <div id="instalacja">
+            <div id="uklad_elementow">
                 <h2 class="color_text_dark_gray">
-                    <p>Instalacja</p>
+                    <p>Układ elementów</p>
                 </h2>
-                <p class="color_background_full_white">Należy pobrać archiwum <span class="selector">FremCSS.zip</span> i je rozpakować do katalogu głównego strony. Archiwum zawiera folder <span class="selector">fremcss</span> ze stylami oraz podfolder <span class="selector">images</span>.</p>
-            </div>
-            <div id="konfiguracja">
+                <p class="color_background_full_white">Do ustawienia układu elementów wewnątrz innego elementu np. <span class="selector">div</span> należy użyć odpowiedniej klasy. Klasy ustalają na ile kolumn podzielić dany element. Przykładowy klasy: <span class="selector">collumns_1</span>, <span class="selector">collumns_2</span> do <span class="selector">collumns_6</span>.</p>
                 <h2 class="color_text_dark_gray">
-                    <p>Konfiguracja</p>
+                    <p>Przykład</p>
                 </h2>
-                <p class="color_background_full_white">Na stronie, która ma używać FremCSS należy zaimportować z folderu <span class="selector">fremcss</span> plik <span class="selector">main.css</span>.</p>
                 <table>
                     <tr>
                         <th>Kod</th>
@@ -97,30 +94,51 @@
                     <tr>
                         <td>
                             <div class="code">
-                                <p>&lt;link rel="stylesheet" href="./fremcss/main.css"&gt;</p>
+                                <p>&lt;div class="collumns_2"&gt;&lt;h6&gt;Jedna kolumna&lt;/h6&gt;&lt;h6&gt;Druga kolumna&lt;/h6&gt&lt;/div&gt;</p>
                             </div>
                         </td>
-                        <td>Poprawne zaimportowanie frameworka FremCSS</td>
-                    </tr>
-                </table>
-                <p class="color_background_full_white">Framework FremCSS może współpracować z innymi stylami css. W tym celu należy zaimportować własne style przed frameworkiem.</p>
-                <table>
-                    <tr>
-                        <th>Kod</th>
-                        <th>Wynik</th>
+                        <td>
+                            <div class="collumns_2"><h6>Jedna kolumna</h6><h6>Druga kolumna</h6></div>
+                        </td>
                     </tr>
                     <tr>
                         <td>
                             <div class="code">
-                                <p>
-                                    &lt;link rel="stylesheet" href="wlasne_style.css"&gt;
-                                    <br>
-                                    &lt;link rel="stylesheet" href="./fremcss/main.css"&gt;
-                                </p>
+                                <p>&lt;div class="collumns_3"&gt;&lt;h6&gt;Jedna kolumna&lt;/h6&gt;&lt;h6&gt;Druga kolumna&lt;/h6&gt&lt;&lt;h6&gt;Trzecia kolumna&lt;/h6&gt&lt;/div&gt;</p>
                             </div>
                         </td>
                         <td>
-                            Poprawnie zaimportowane własne style
+                            <div class="collumns_3"><h6>Jedna kolumna</h6><h6>Druga kolumna</h6><h6>Trzecia kolumna</h6></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;div class="collumns_4"&gt;&lt;h6&gt;Jedna kolumna&lt;/h6&gt;&lt;h6&gt;Druga kolumna&lt;/h6&gt&lt;&lt;h6&gt;Trzecia kolumna&lt;/h6&gt;&lt;&lt;h6&gt;Czwarta kolumna&lt;/h6&gt;&lt;/div&gt;</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="collumns_4"><h6>Jedna kolumna</h6><h6>Druga kolumna</h6><h6>Trzecia kolumna</h6><h6>Czwarta kolumna</h6></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;div class="collumns_5"&gt;&lt;h6&gt;Jedna kolumna&lt;/h6&gt;&lt;h6&gt;Druga kolumna&lt;/h6&gt;&lt;&lt;h6&gt;Trzecia kolumna&lt;/h6&gt;&lt;&lt;h6&gt;Czwarta kolumna&lt;/h6&gt;&lt;&lt;h6&gt;Piąta kolumna&lt;/h6&gt;&lt;/div&gt;</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="collumns_5"><h6>Jedna kolumna</h6><h6>Druga kolumna</h6><h6>Trzecia kolumna</h6><h6>Czwarta kolumna</h6><h6>Piąta kolumna</h6></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;div class="collumns_6"&gt;&lt;h6&gt;Jedna kolumna&lt;/h6&gt;&lt;h6&gt;Druga kolumna&lt;/h6&gt&lt;&lt;h6&gt;Trzecia kolumna&lt;/h6&gt&lt;&lt;h6&gt;Czwarta kolumna&lt;/h6&gt&lt;&lt;h6&gt;Piąta kolumna&lt;/h6&gt;&lt;h6&gt;Szósta kolumna&lt;/h6&gt;&lt;/div&gt;</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="collumns_6"><h6>Jedna kolumna</h6><h6>Druga kolumna</h6><h6>Trzecia kolumna</h6><h6>Czwarta kolumna</h6><h6>Piąta kolumna</h6><h6>Szósta kolumna</h6></div>
                         </td>
                     </tr>
                 </table>
