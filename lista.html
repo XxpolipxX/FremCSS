@@ -60,6 +60,10 @@
             <a href="./formularz.html#formularz_etykiety">Etykiety</a>
             <a href="./formularz.html#formularz_pola">Pola</a>
         </h2>
+        <h2 class="border_top collumns_1">
+            Obramowanie
+            <a href="./obramowanie.html#obramowanie">Obramowanie</a>
+        </h2>
     </div>
 
     <div class="main">
@@ -130,6 +134,74 @@
                                 <li>Element listy</li>
                                 <li>Element listy</li>
                             </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="polaczenie_list">
+                <h2 class="color_text_dark_gray">
+                    <p>Połączenie list ze sobą</p>
+                </h2>
+                <p class="color_background_full_white">Jeżeli chcemy umieścić jedną listę w drugiej należy zagnieździć jedną listę w środku drugiej wewnątrz elementu <span class="selector">li</span>.</p>
+                <table>
+                    <tr>
+                        <th>Kod</th>
+                        <th>Wynik</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <pre>
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;ol&lt;
+            &lt;li&gt;Element listy zagnieżdżonej&lt;/li&gt;
+        &lt;/ol&lt;
+    &lt;/li&gt;
+    &lt;li&gt;Element listy głównej&lt;/li&gt;
+&lt;/ul&gt;
+                                </pre>
+                            </div>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <ol>
+                                        <li>
+                                            Element listy zagnieżdżonej
+                                        </li>
+                                    </ol>
+                                </li>
+                                <li>Element listy głównej</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <pre>
+&lt;ol&gt;
+    &lt;li&gt;
+        &lt;ul&lt;
+            &lt;li&gt;Element listy zagnieżdżonej&lt;/li&gt;
+        &lt;/ul&lt;
+    &lt;/li&gt;
+    &lt;li&gt;Element listy głównej&lt;/li&gt;
+&lt;/ol&gt;
+                                </pre>
+                            </div>
+                        </td>
+                        <td>
+                            <ol>
+                                <li>
+                                    <ul>
+                                        <li>
+                                            Element listy zagnieżdżonej
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>Element listy głównej</li>
+                            </ol>
                         </td>
                     </tr>
                 </table>

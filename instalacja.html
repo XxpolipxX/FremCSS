@@ -60,6 +60,10 @@
             <a href="./formularz.html#formularz_etykiety">Etykiety</a>
             <a href="./formularz.html#formularz_pola">Pola</a>
         </h2>
+        <h2 class="border_top collumns_1">
+            Obramowanie
+            <a href="./obramowanie.html#obramowanie">Obramowanie</a>
+        </h2>
     </div>
 
     <div class="main">
@@ -81,6 +85,41 @@
                     <p>Konfiguracja</p>
                 </h2>
                 <p class="color_background_full_white">Na stronie, która ma używać FremCSS należy zaimportować z folderu <span class="selector">fremcss</span> plik <span class="selector">main.css</span>.</p>
+                <table>
+                    <tr>
+                        <th>Kod</th>
+                        <th>Wynik</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;link rel="stylesheet" href="./fremcss/main.css"&gt;</p>
+                            </div>
+                        </td>
+                        <td>Poprawne zaimportowanie frameworka FremCSS</td>
+                    </tr>
+                </table>
+                <p class="color_background_full_white">Framework FremCSS może współpracować z innymi stylami css. W tym celu należy zaimportować własne style przed frameworkiem.</p>
+                <table>
+                    <tr>
+                        <th>Kod</th>
+                        <th>Wynik</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>
+                                    &lt;link rel="stylesheet" href="wlasne_style.css"&gt;
+                                    <br>
+                                    &lt;link rel="stylesheet" href="./fremcss/main.css"&gt;
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            Poprawnie zaimportowane własne style
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
