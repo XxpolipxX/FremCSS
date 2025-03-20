@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>FremCSS</title>
     <link rel="stylesheet" href="../style/main.css">
+    <script src="../scripts/main.js"></script>
 </head>
 <body>
     <div class="logo"></div>
@@ -91,7 +92,7 @@
                 <h2 class="color_text_dark_gray">
                     <p>Instalacja</p>
                 </h2>
-                <p class="color_background_full_white">Należy pobrać archiwum <span class="select">FremCSS.zip</span> i je rozpakować do katalogu głównego strony. Archiwum zawiera folder <span class="select">fremcss</span> ze stylami oraz podfolder <span class="select">images</span>.</p>
+                <p class="color_background_full_white">Należy pobrać archiwum <span class="select">FremCSS.zip</span> i je rozpakować do katalogu głównego strony. Archiwum zawiera folder <span class="select">fremcss</span> z podfolderami <span class="select">images</span>, <span class="select">scripts</span>, <span class="select">style</span> oraz <span class="select">subpages</span></p>
             </div>
             <div id="konfiguracja">
                 <h2 class="color_text_dark_gray">
@@ -106,7 +107,10 @@
                     <tr>
                         <td>
                             <div class="code">
-                                <p>&lt;link rel="stylesheet" href="./fremcss/style/main.css"&gt;</p>
+                                <p>&lt;link rel="stylesheet" href="./fremcss/style/main.css"&gt;
+                                    <br>
+                                    &lt;script src="./fremcss/scripts/main.js"&gt;&lt;/script&gt;
+                                </p>
                             </div>
                         </td>
                         <td>Poprawne zaimportowanie frameworka FremCSS</td>
@@ -124,7 +128,11 @@
                                 <p>
                                     &lt;link rel="stylesheet" href="wlasne_style.css"&gt;
                                     <br>
+                                    &lt;script src="wlasny_skrypt.js"&gt;&lt;/script&gt;
+                                    <br>
                                     &lt;link rel="stylesheet" href="./fremcss/style/main.css"&gt;
+                                    <br>
+                                    &lt;script src="./fremcss/scripts/main.js"&gt;&lt;/script&gt;
                                 </p>
                             </div>
                         </td>
