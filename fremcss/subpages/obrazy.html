@@ -73,7 +73,9 @@
             <a href="./kod.html#kod">Umieszczanie kodu</a>
         </h2>
         <h2 class="border_top collumns_1">
+            Obrazy
             <a href="./obrazy.html#obraz">Obraz img</a>
+            <a href="./obrazy.html#figure">Obraz figure</a>
         </h2>
     </div>
 
@@ -105,26 +107,32 @@
                             Poprawnie umieszczony obraz na stronie
                         </td>
                     </tr>
+                </table>
+            </div>
+            <div id="figure">
+                <h2 class="color_text_dark_gray">
+                    <p>Obraz figure i figcaption</p>
+                </h2>
+                <p class="color_background_full_white">Obrazy na stronie można umieszczać na stronie również za pomocą znaczników <span class="select">figure</span> i <span class="select">img</span>. Można także dodać opis zdjęcia używając <span class="select">figcaption</span>.</p>
+                <table>
+                    <tr>
+                        <th>Kod</th>
+                        <th>Wynik</th>
+                    </tr>
                     <tr>
                         <td>
                             <div class="code">
                                 <pre>
-<figure>
-    <img src="" alt="">
-    <figcaption></figcaption>
-</figure>
 &lt;figure&gt;
-    &lt;img scr="./sciezka/do/obrazu" alt="alternatywny napis"&gt;
-    &lt;figcaption&gt;
-        Opis zdjęcia
-    &lt;/figcaption&lt;
+    &lt;img src="../images/logo.png" alt="alternatywny napis"&gt;
+    &lt;figcaption&gt;Opis zdjęcia&lt;/figcaption&gt;
 &lt;/figure&gt;
                                 </pre>
                             </div>
                         </td>
                         <td>
                             <figure>
-                                <img src="../images/logo.webp" alt="logo">
+                                <img src="../images/logo.png" alt="logo">
                                 <figcaption>Opis zdjęcia</figcaption>
                             </figure>
                         </td>
