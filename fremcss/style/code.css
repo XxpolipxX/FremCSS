@@ -19,3 +19,14 @@
     line-height: 150%;
     text-align: left;
 }
+
+.copy_button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    border: none;
+}
+
+.copy_button:hover{background-color: #fc307b;}
