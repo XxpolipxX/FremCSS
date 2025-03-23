@@ -1,0 +1,7 @@
+.select {
+    padding: 5px;
+    margin: 5px;
+    font-family: monospace;
+    color: inherit;
+    background-color: var(--color-white);
+}

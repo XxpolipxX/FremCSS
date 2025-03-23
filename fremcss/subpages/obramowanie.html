@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>FremCSS</title>
+    <link rel="stylesheet" href="../style/main.css">
+    <script src="../scripts/main.js"></script>
+</head>
+<body>
+    <div class="logo"></div>
+    <div class="top_menu">Dokumentacja techniczna Frameworka FremCSS</div>
+
+    <div class="menu">
+        <h1><a href="../../main.html">Menu</a></h1>
+
+        <h2 class="border_top collumns_1">
+            FremCSS
+            <a href="./instalacja.html#instalacja">Instalacja</a>
+            <a href="./instalacja.html#konfiguracja">Konfiguracja</a>
+        </h2>
+        
+        <h2 class="border_top collumns_1">
+            Szablon
+            <a href="./szablon.html#struktura">Struktura</a>
+            <a href="./szablon.html#logotyp">Logotyp</a>
+            <a href="./szablon.html#panel_gora">Panel górny</a>
+            <a href="./szablon.html#menu_boczne">Menu boczne</a>
+            <a href="./szablon.html#panel_centralny">Panel centralny</a>
+            <a href="./szablon.html#wersja">Wersja</a>
+            <a href="./szablon.html#stopka">Stopka</a>
+        </h2>
+
+        <h2 class="border_top collumns_1">
+            Menu boczne
+            <a href="./menu_boczne.html#naglowek">Nagłówek</a>
+            <a href="./menu_boczne.html#odsylacze">Odsyłacze</a>
+        </h2>
+
+        <h2 class="border_top collumns_1">
+            Tekst
+            <a href="./tekst.html#naglowki">Nagłówki</a>
+            <a href="./tekst.html#rozmiary">Rozmiary</a>
+            <a href="./tekst.html#kolory">Kolory</a>
+            <a href="./tekst.html#centrowanie_tekstu">Centrowanie tekstu</a>
+        </h2>
+
+        <h2 class="border_top collumns_1">
+            Tabela
+            <a href="./tabela.html#tabela">Szablon</a>
+        </h2>
+
+        <h2 class="border_top collumns_1">
+            Lista
+            <a href="./lista.html#uporzadkowana">Lista uporządkowana</a>
+            <a href="./lista.html#nieuporzadkowana">Lista nieuporządkowana</a>
+        </h2>
+
+        <h2 class="border_top collumns_1">
+            Formularz
+            <a href="./formularz.html#formularz_szablon">Szablon</a>
+            <a href="./formularz.html#formularz_etykiety">Etykiety</a>
+            <a href="./formularz.html#formularz_pola">Pola</a>
+        </h2>
+        <h2 class="border_top collumns_1">
+            Obramowanie
+            <a href="./obramowanie.html#obramowanie">Obramowanie</a>
+        </h2>
+        <h2 class="border_top collumns_1">
+            Układ elementów
+            <a href="./uklad_elementow.html#uklad_elementow">Układ elementów</a>
+        </h2>
+        <h2 class="border_top collumns_1">
+            Kod
+            <a href="./kod.html#kod">Umieszczanie kodu</a>
+        </h2>
+        <h2 class="border_top collumns_1">
+            Obrazy
+            <a href="./obrazy.html#obraz">Obraz img</a>
+            <a href="./obrazy.html#figure">Obraz figure</a>
+        </h2>
+    </div>
+
+    <div class="main">
+        <div>
+            <h2 class="color_text_dark_gray">
+                <p>Obramowanie</p>
+            </h2>
+            <div class="color_background_full_white color_text_dark_gray">
+                <p>Na tej podstronie są opisane style dla obramowań</p>
+            </div>
+            <div id="obramowanie">
+                <h2 class="color_text_dark_gray">
+                    <p>Obramowanie</p>
+                </h2>
+                <p class="color_background_full_white">Do tworzenia obramowania można używać dowolnego znacznika z odpowiednią klasą. Do pełnego obramowania należy użyć klasy <span class="select">border_full</span>. Do obramowania od góry należy użyć klasy <span class="select">border_top</span>. Do obramowania od dołu należy użyć klasy <span class="select">border_bottom</span>. Do obramowania od lewej strony należy użyć klasy <span class="select">border_left</span>. Do obramowania z prawej strony należy użyć klasy <span class="select">border_right</span>. Klasy można ze sobą łączyć.</p>
+                <table>
+                    <tr>
+                        <th>Kod</th>
+                        <th>Wynik</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;div class="border_full"&gt;Pełne obramowanie&lt;/div&gt;</p>
+                            </div>
+                        </td>
+                        <td><div class="border_full">Pełne obramowanie</div></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;div class="border_right"&gt;Obramowanie z prawej strony&lt;/div&gt;</p>
+                            </div>
+                        </td>
+                        <td><div class="border_right">Obramowanie z prawej strony</div></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;div class="border_right border_top"&gt;Obramowanie z prawej strony i od góry&lt;/div&gt;</p>
+                            </div>
+                        </td>
+                        <td><div class="border_right border_top">Obramowanie z prawej strony i od góry</div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="version">Obecna wersja: 1.0.0.4</div>
+    <div class="footer">FremCSS</div>
+</body>
+</html>

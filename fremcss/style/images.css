@@ -1,0 +1,23 @@
+img {
+    width: 100%;
+    height: auto;
+    background-color: inherit;
+    color: inherit;
+}
+
+figure {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: inherit;
+    color: inherit;
+}
+
+figure > img {
+    width: 100%;
+    height: auto;
+}
+
+figure > figcaption {
+    margin-top: 10px;
+    font-size: inherit;
+}

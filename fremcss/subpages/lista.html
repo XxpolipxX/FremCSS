@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>FremCSS</title>
+    <link rel="stylesheet" href="../style/main.css">
+    <script src="../scripts/main.js"></script>
+</head>
+<body>
+    <div class="logo"></div>
+    <div class="top_menu">Dokumentacja techniczna Frameworka FremCSS</div>
+
+    <div class="menu">
+        <h1><a href="../../main.html">Menu</a></h1>
+
+        <h2 class="border_top collumns_1">
+            FremCSS
+            <a href="./instalacja.html#instalacja">Instalacja</a>
+            <a href="./instalacja.html#konfiguracja">Konfiguracja</a>
+        </h2>
+        
+        <h2 class="border_top collumns_1">
+            Szablon
+            <a href="./szablon.html#struktura">Struktura</a>
+            <a href="./szablon.html#logotyp">Logotyp</a>
+            <a href="./szablon.html#panel_gora">Panel górny</a>
+            <a href="./szablon.html#menu_boczne">Menu boczne</a>
+            <a href="./szablon.html#panel_centralny">Panel centralny</a>
+            <a href="./szablon.html#wersja">Wersja</a>
+            <a href="./szablon.html#stopka">Stopka</a>
+        </h2>
+
+        <h2 class="border_top collumns_1">
+            Menu boczne
+            <a href="./menu_boczne.html#naglowek">Nagłówek</a>
+            <a href="./menu_boczne.html#odsylacze">Odsyłacze</a>
+        </h2>
+
+        <h2 class="border_top collumns_1">
+            Tekst
+            <a href="./tekst.html#naglowki">Nagłówki</a>
+            <a href="./tekst.html#rozmiary">Rozmiary</a>
+            <a href="./tekst.html#kolory">Kolory</a>
+            <a href="./tekst.html#centrowanie_tekstu">Centrowanie tekstu</a>
+        </h2>
+
+        <h2 class="border_top collumns_1">
+            Tabela
+            <a href="./tabela.html#tabela">Szablon</a>
+        </h2>
+
+        <h2 class="border_top collumns_1">
+            Lista
+            <a href="./lista.html#uporzadkowana">Lista uporządkowana</a>
+            <a href="./lista.html#nieuporzadkowana">Lista nieuporządkowana</a>
+        </h2>
+
+        <h2 class="border_top collumns_1">
+            Formularz
+            <a href="./formularz.html#formularz_szablon">Szablon</a>
+            <a href="./formularz.html#formularz_etykiety">Etykiety</a>
+            <a href="./formularz.html#formularz_pola">Pola</a>
+        </h2>
+        <h2 class="border_top collumns_1">
+            Obramowanie
+            <a href="./obramowanie.html#obramowanie">Obramowanie</a>
+        </h2>
+        <h2 class="border_top collumns_1">
+            Układ elementów
+            <a href="./uklad_elementow.html#uklad_elementow">Układ elementów</a>
+        </h2>
+        <h2 class="border_top collumns_1">
+            Kod
+            <a href="./kod.html#kod">Umieszczanie kodu</a>
+        </h2>
+        <h2 class="border_top collumns_1">
+            Obrazy
+            <a href="./obrazy.html#obraz">Obraz img</a>
+            <a href="./obrazy.html#figure">Obraz figure</a>
+        </h2>
+    </div>
+
+    <div class="main">
+        <div>
+            <h2 class="color_text_dark_gray">
+                <p>Lista</p>
+            </h2>
+            <div class="color_background_full_white color_text_dark_gray">
+                <p>Na tej podstronie zostały opisane listy.</p>
+            </div>
+            <div id="uporzadkowana">
+                <h2 class="color_text_dark_gray">
+                    <p>Lista uporządkowana</p>
+                </h2>
+                <p class="color_background_full_white">Do stworzenia listy uporządkowanej należy użyć znacznika <span class="select">ol</span>. Wewnątrz tego znacznika do stworzenia elementów listy należy używać znacznika <span class="select">li</span>.</p>
+                <table>
+                    <tr>
+                        <th>Kod</th>
+                        <th>Wynik</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <pre>
+&lt;ol&gt;
+    &lt;li&gt;Element listy&lt;/li&gt;
+    &lt;li&gt;Element listy&lt;/li&gt;
+    &lt;li&gt;Element listy&lt;/li&gt;
+&lt;/ol&gt;
+                                </pre>
+                            </div>
+                        </td>
+                        <td>
+                            <ol>
+                                <li>Element listy</li>
+                                <li>Element listy</li>
+                                <li>Element listy</li>
+                            </ol>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="nieuporzadkowana">
+                <h2 class="color_text_dark_gray">
+                    <p>Lista nieuporządkowana</p>
+                </h2>
+                <p class="color_background_full_white">Do stworzenia listy nieuporządkowanej należy użyć znacznika <span class="select">ul</span>. Wewnątrz tego znacznika do stworzenia elementów listy należy używać znacznika <span class="select">li</span>.</p>
+                <table>
+                    <tr>
+                        <th>Kod</th>
+                        <th>Wynik</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <pre>
+&lt;ul&gt;
+    &lt;li&gt;Element listy&lt;/li&gt;
+    &lt;li&gt;Element listy&lt;/li&gt;
+    &lt;li&gt;Element listy&lt;/li&gt;
+&lt;/ul&gt;
+                                </pre>
+                            </div>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Element listy</li>
+                                <li>Element listy</li>
+                                <li>Element listy</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="polaczenie_list">
+                <h2 class="color_text_dark_gray">
+                    <p>Połączenie list ze sobą</p>
+                </h2>
+                <p class="color_background_full_white">Jeżeli chcemy umieścić jedną listę w drugiej należy zagnieździć jedną listę w środku drugiej wewnątrz elementu <span class="select">li</span>.</p>
+                <table>
+                    <tr>
+                        <th>Kod</th>
+                        <th>Wynik</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <pre>
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;ol&lt;
+            &lt;li&gt;Element listy zagnieżdżonej&lt;/li&gt;
+        &lt;/ol&lt;
+    &lt;/li&gt;
+    &lt;li&gt;Element listy głównej&lt;/li&gt;
+&lt;/ul&gt;
+                                </pre>
+                            </div>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <ol>
+                                        <li>
+                                            Element listy zagnieżdżonej
+                                        </li>
+                                    </ol>
+                                </li>
+                                <li>Element listy głównej</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <pre>
+&lt;ol&gt;
+    &lt;li&gt;
+        &lt;ul&lt;
+            &lt;li&gt;Element listy zagnieżdżonej&lt;/li&gt;
+        &lt;/ul&lt;
+    &lt;/li&gt;
+    &lt;li&gt;Element listy głównej&lt;/li&gt;
+&lt;/ol&gt;
+                                </pre>
+                            </div>
+                        </td>
+                        <td>
+                            <ol>
+                                <li>
+                                    <ul>
+                                        <li>
+                                            Element listy zagnieżdżonej
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>Element listy głównej</li>
+                            </ol>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="version">Obecna wersja: 1.0.0.4</div>
+    <div class="footer">FremCSS</div>
+</body>
+</html>
