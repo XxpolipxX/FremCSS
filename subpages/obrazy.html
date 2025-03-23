@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>FremCSS</title>
-    <link rel="stylesheet" href="../style/main.css">
-    <script src="../scripts/main.js"></script>
+    <link rel="stylesheet" href="../fremcss/style/main.css">
+    <script src="../fremcss/scripts/main.js"></script>
 </head>
 <body>
     <div class="logo"></div>
@@ -83,22 +83,16 @@
     <div class="main">
         <div>
             <h2 class="color_text_dark_gray">
-                <p>Instalacja i Konfiguracja</p>
+                <p>Umieszczanie obrazu</p>
             </h2>
             <div class="color_background_full_white color_text_dark_gray">
-                <p>Na tej podstronie jest opisany proces instalacji i konfiguracji FremCSS na własnej stronie.</p>
+                <p>Na tej podstronie jest opisane w jaki sposób można umieszczać obrazy na stronie</p>
             </div>
-            <div id="instalacja">
+            <div id="obraz">
                 <h2 class="color_text_dark_gray">
-                    <p>Instalacja</p>
+                    <p>Obraz img</p>
                 </h2>
-                <p class="color_background_full_white">Należy pobrać archiwum <span class="select">FremCSS.zip</span> i je rozpakować do katalogu głównego strony. Archiwum zawiera folder <span class="select">fremcss</span> z podfolderami <span class="select">images</span>, <span class="select">scripts</span>, <span class="select">style</span> oraz <span class="select">subpages</span></p>
-            </div>
-            <div id="konfiguracja">
-                <h2 class="color_text_dark_gray">
-                    <p>Konfiguracja</p>
-                </h2>
-                <p class="color_background_full_white">Na stronie, która ma używać FremCSS należy zaimportować z folderu <span class="select">fremcss</span> plik <span class="select">main.css</span>.</p>
+                <p class="color_background_full_white">Obrazy na stronie można umieszczać za pomocą znacznika <span class="select">img</span>.</p>
                 <table>
                     <tr>
                         <th>Kod</th>
@@ -107,16 +101,20 @@
                     <tr>
                         <td>
                             <div class="code">
-                                <p>&lt;link rel="stylesheet" href="./fremcss/style/main.css"&gt;
-                                    <br>
-                                    &lt;script src="./fremcss/scripts/main.js"&gt;&lt;/script&gt;
-                                </p>
+                                <p>&lt;img src="./sciezka/do/obrazu" alt="alternatywny napis"&gt;</p>
                             </div>
                         </td>
-                        <td>Poprawne zaimportowanie frameworka FremCSS</td>
+                        <td>
+                            Poprawnie umieszczony obraz na stronie
+                        </td>
                     </tr>
                 </table>
-                <p class="color_background_full_white">Framework FremCSS może współpracować z innymi stylami css. W tym celu należy zaimportować własne style przed frameworkiem.</p>
+            </div>
+            <div id="figure">
+                <h2 class="color_text_dark_gray">
+                    <p>Obraz figure i figcaption</p>
+                </h2>
+                <p class="color_background_full_white">Obrazy na stronie można umieszczać na stronie również za pomocą znaczników <span class="select">figure</span> i <span class="select">img</span>. Można także dodać opis zdjęcia używając <span class="select">figcaption</span>.</p>
                 <table>
                     <tr>
                         <th>Kod</th>
@@ -125,19 +123,19 @@
                     <tr>
                         <td>
                             <div class="code">
-                                <p>
-                                    &lt;link rel="stylesheet" href="wlasne_style.css"&gt;
-                                    <br>
-                                    &lt;script src="wlasny_skrypt.js"&gt;&lt;/script&gt;
-                                    <br>
-                                    &lt;link rel="stylesheet" href="./fremcss/style/main.css"&gt;
-                                    <br>
-                                    &lt;script src="./fremcss/scripts/main.js"&gt;&lt;/script&gt;
-                                </p>
+                                <pre>
+&lt;figure&gt;
+    &lt;img src="../images/logo.png" alt="alternatywny napis"&gt;
+    &lt;figcaption&gt;Opis zdjęcia&lt;/figcaption&gt;
+&lt;/figure&gt;
+                                </pre>
                             </div>
                         </td>
                         <td>
-                            Poprawnie zaimportowane własne style
+                            <figure>
+                                <img src="../images/logo.png" alt="logo">
+                                <figcaption>Opis zdjęcia</figcaption>
+                            </figure>
                         </td>
                     </tr>
                 </table>

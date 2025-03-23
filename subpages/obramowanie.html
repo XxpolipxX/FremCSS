@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>FremCSS</title>
-    <link rel="stylesheet" href="../style/main.css">
-    <script src="../scripts/main.js"></script>
+    <link rel="stylesheet" href="../fremcss/style/main.css">
+    <script src="../fremcss/scripts/main.js"></script>
 </head>
 <body>
     <div class="logo"></div>
@@ -83,16 +83,16 @@
     <div class="main">
         <div>
             <h2 class="color_text_dark_gray">
-                <p>Umieszczanie kodu</p>
+                <p>Obramowanie</p>
             </h2>
             <div class="color_background_full_white color_text_dark_gray">
-                <p>Na tej podstronie jest opisane w jaki sposób można umieszczać kod na stronie</p>
+                <p>Na tej podstronie są opisane style dla obramowań</p>
             </div>
-            <div id="kod">
+            <div id="obramowanie">
                 <h2 class="color_text_dark_gray">
-                    <p>Kod</p>
+                    <p>Obramowanie</p>
                 </h2>
-                <p class="color_background_full_white">Kod na stronie można umieszczać wewnątrz elementu <span class="select">div</span> z klasą <span class="select">code</span>. Wewnątrz tego elementu należy umieścić znacznik <span class="select">p</span>. Jeżeli zależy nam na prawidłowym formatowaniu tekstu przez stronę można użyć znacznika <span class="select">pre</span>. Wewnątrz znacznika <span class="select">p</span> lub <span class="select">pre</span> można umieszczać interesujący nas kod.</p>
+                <p class="color_background_full_white">Do tworzenia obramowania można używać dowolnego znacznika z odpowiednią klasą. Do pełnego obramowania należy użyć klasy <span class="select">border_full</span>. Do obramowania od góry należy użyć klasy <span class="select">border_top</span>. Do obramowania od dołu należy użyć klasy <span class="select">border_bottom</span>. Do obramowania od lewej strony należy użyć klasy <span class="select">border_left</span>. Do obramowania z prawej strony należy użyć klasy <span class="select">border_right</span>. Klasy można ze sobą łączyć.</p>
                 <table>
                     <tr>
                         <th>Kod</th>
@@ -101,46 +101,26 @@
                     <tr>
                         <td>
                             <div class="code">
-                                <pre>
-&lt;div class="code"&gt;
-    &lt;p&gt;
-        Tutaj jest kod 
-        strony
-    &lt;/p&gt;
-&lt;/div&gt;
-                                </pre>
+                                <p>&lt;div class="border_full"&gt;Pełne obramowanie&lt;/div&gt;</p>
                             </div>
                         </td>
-                        <td>
-                            <div class="code">
-                                <p>
-                                    Tutaj jest kod
-                                    strony
-                                </p>
-                            </div>
-                        </td>
+                        <td><div class="border_full">Pełne obramowanie</div></td>
                     </tr>
                     <tr>
                         <td>
                             <div class="code">
-                                <pre>
-&lt;div class="code"&gt;
-    &lt;pre&gt;
-        Tutaj jest kod 
-        strony
-    &lt;/pre&gt;
-&lt;/div&gt;
-                                </pre>
+                                <p>&lt;div class="border_right"&gt;Obramowanie z prawej strony&lt;/div&gt;</p>
                             </div>
                         </td>
+                        <td><div class="border_right">Obramowanie z prawej strony</div></td>
+                    </tr>
+                    <tr>
                         <td>
                             <div class="code">
-                                <pre>
-        Tutaj jest kod
-        strony
-                                </pre>
+                                <p>&lt;div class="border_right border_top"&gt;Obramowanie z prawej strony i od góry&lt;/div&gt;</p>
                             </div>
                         </td>
+                        <td><div class="border_right border_top">Obramowanie z prawej strony i od góry</div></td>
                     </tr>
                 </table>
             </div>

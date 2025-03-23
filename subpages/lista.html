@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>FremCSS</title>
-    <link rel="stylesheet" href="../style/main.css">
-    <script src="../scripts/main.js"></script>
+    <link rel="stylesheet" href="../fremcss/style/main.css">
+    <script src="../fremcss/scripts/main.js"></script>
 </head>
 <body>
     <div class="logo"></div>
@@ -83,22 +83,16 @@
     <div class="main">
         <div>
             <h2 class="color_text_dark_gray">
-                <p>Szablon</p>
+                <p>Lista</p>
             </h2>
             <div class="color_background_full_white color_text_dark_gray">
-                <p>Na tej podstronie jest opisany szablon strony wykonanej w FremCSS.</p>
+                <p>Na tej podstronie zostały opisane listy.</p>
             </div>
-            <div id="struktura">
+            <div id="uporzadkowana">
                 <h2 class="color_text_dark_gray">
-                    <p>Struktura</p>
+                    <p>Lista uporządkowana</p>
                 </h2>
-                <p class="color_background_full_white">Strona składa się z kilku części. Nagłówek na samej górze, gdzie po lewej znajduje się logo a na środku może być tytuł strony.</p>
-            </div>
-            <div id="logotyp">
-                <h2 class="color_text_dark_gray">
-                    <p>Logotyp</p>
-                </h2>
-                <p class="color_background_full_white">Logotyp należy umieścić w klasie <span class="select">logo</span>.</p>
+                <p class="color_background_full_white">Do stworzenia listy uporządkowanej należy użyć znacznika <span class="select">ol</span>. Wewnątrz tego znacznika do stworzenia elementów listy należy używać znacznika <span class="select">li</span>.</p>
                 <table>
                     <tr>
                         <th>Kod</th>
@@ -107,84 +101,30 @@
                     <tr>
                         <td>
                             <div class="code">
-                                <p>
-                                    &lt;div class="logo"&gt;&lt;/div&gt;
-                                </p>
-                            </div>
-                        </td>
-                        <td>Poprawnie umieszczony logotyp</td>
-                    </tr>
-                </table>
-            </div>
-            <div id="panel_gora">
-                <h2 class="color_text_dark_gray">
-                    <p>Panel górny</p>
-                </h2>
-                <p class="color_background_full_white">Panel górny należy umieścić w klasie <span class="select">top_menu</span>.</p>
-                <table>
-                    <tr>
-                        <th>Kod</th>
-                        <th>Wynik</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="code">
-                                <p>
-                                    &lt;div class="top_menu"&gt;&lt;Poprawnie umieszczony panel górny/div&gt;
-                                </p>
-                            </div>
-                        </td>
-                        <td><div class="top_menu">Poprawnie umieszczony panel górny</div></td>
-                    </tr>
-                </table>
-            </div>
-            <div id="menu_boczne">
-                <h2 class="color_text_dark_gray">
-                    <p>Menu boczne</p>
-                </h2>
-                <p class="color_background_full_white">Menu boczne należy umieścić w klasie <span class="select">menu</span>.</p>
-                <table>
-                    <tr>
-                        <th>Kod</th>
-                        <th>Wynik</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="code">
-                                <p>&lt;div class="menu"&gt;&lt;Poprawnie umieszczone menu boczne/div&gt;</p>
-                            </div>
-                        </td>
-                        <td><div class="menu">Poprawnie umieszczone menu boczne</div></td>
-                    </tr>
-                </table>
-            </div>
-            <div id="panel_centralny">
-                <h2 class="color_text_dark_gray">
-                    <p>Panel centralny</p>
-                </h2>
-                <p class="color_background_full_white">Panel centralny należy umieścić w klasie <span class="select">main</span>.</p>
-                <table>
-                    <tr>
-                        <th>Kod</th>
-                        <th>Wynik</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="code">
-                                <p>&lt;div class="main"&gt;&lt;Poprawnie umieszczony panel centralny/div&gt;</p>
+                                <pre>
+&lt;ol&gt;
+    &lt;li&gt;Element listy&lt;/li&gt;
+    &lt;li&gt;Element listy&lt;/li&gt;
+    &lt;li&gt;Element listy&lt;/li&gt;
+&lt;/ol&gt;
+                                </pre>
                             </div>
                         </td>
                         <td>
-                            <div class="main">Poprawnie umieszczony panel centralny</div>
+                            <ol>
+                                <li>Element listy</li>
+                                <li>Element listy</li>
+                                <li>Element listy</li>
+                            </ol>
                         </td>
                     </tr>
                 </table>
             </div>
-            <div id="wersja">
+            <div id="nieuporzadkowana">
                 <h2 class="color_text_dark_gray">
-                    <p>Wersja</p>
+                    <p>Lista nieuporządkowana</p>
                 </h2>
-                <p class="color_background_full_white">Obecną wersję strony należy umieścić w klasie <span class="select">version</span>.</p>
+                <p class="color_background_full_white">Do stworzenia listy nieuporządkowanej należy użyć znacznika <span class="select">ul</span>. Wewnątrz tego znacznika do stworzenia elementów listy należy używać znacznika <span class="select">li</span>.</p>
                 <table>
                     <tr>
                         <th>Kod</th>
@@ -193,18 +133,30 @@
                     <tr>
                         <td>
                             <div class="code">
-                                <p>&lt;div class="version"&gt;&lt;Poprawnie umieszczony panel z obecną wersją strony/div&gt;</p>
+                                <pre>
+&lt;ul&gt;
+    &lt;li&gt;Element listy&lt;/li&gt;
+    &lt;li&gt;Element listy&lt;/li&gt;
+    &lt;li&gt;Element listy&lt;/li&gt;
+&lt;/ul&gt;
+                                </pre>
                             </div>
                         </td>
-                        <td><div class="version">Poprawnie umieszczony panel z obecną wersją strony</div></td>
+                        <td>
+                            <ul>
+                                <li>Element listy</li>
+                                <li>Element listy</li>
+                                <li>Element listy</li>
+                            </ul>
+                        </td>
                     </tr>
                 </table>
             </div>
-            <div id="stopka">
+            <div id="polaczenie_list">
                 <h2 class="color_text_dark_gray">
-                    <p>Stopka</p>
+                    <p>Połączenie list ze sobą</p>
                 </h2>
-                <p class="color_background_full_white">Stopkę należy umieścić w klasie <span class="select">footer</span></p>
+                <p class="color_background_full_white">Jeżeli chcemy umieścić jedną listę w drugiej należy zagnieździć jedną listę w środku drugiej wewnątrz elementu <span class="select">li</span>.</p>
                 <table>
                     <tr>
                         <th>Kod</th>
@@ -213,10 +165,58 @@
                     <tr>
                         <td>
                             <div class="code">
-                                <p>&lt;div class="footer"&gt;&lt;Poprawnie umieszczona stopka strony/div&gt;</p>
+                                <pre>
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;ol&lt;
+            &lt;li&gt;Element listy zagnieżdżonej&lt;/li&gt;
+        &lt;/ol&lt;
+    &lt;/li&gt;
+    &lt;li&gt;Element listy głównej&lt;/li&gt;
+&lt;/ul&gt;
+                                </pre>
                             </div>
                         </td>
-                        <td><div class="footer">Poprawnie umieszczona stopka strony</div></td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <ol>
+                                        <li>
+                                            Element listy zagnieżdżonej
+                                        </li>
+                                    </ol>
+                                </li>
+                                <li>Element listy głównej</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <pre>
+&lt;ol&gt;
+    &lt;li&gt;
+        &lt;ul&lt;
+            &lt;li&gt;Element listy zagnieżdżonej&lt;/li&gt;
+        &lt;/ul&lt;
+    &lt;/li&gt;
+    &lt;li&gt;Element listy głównej&lt;/li&gt;
+&lt;/ol&gt;
+                                </pre>
+                            </div>
+                        </td>
+                        <td>
+                            <ol>
+                                <li>
+                                    <ul>
+                                        <li>
+                                            Element listy zagnieżdżonej
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>Element listy głównej</li>
+                            </ol>
+                        </td>
                     </tr>
                 </table>
             </div>

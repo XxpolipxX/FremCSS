@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>FremCSS</title>
-    <link rel="stylesheet" href="../style/main.css">
-    <script src="../scripts/main.js"></script>
+    <link rel="stylesheet" href="../fremcss/style/main.css">
+    <script src="../fremcss/scripts/main.js"></script>
 </head>
 <body>
     <div class="logo"></div>
@@ -83,16 +83,16 @@
     <div class="main">
         <div>
             <h2 class="color_text_dark_gray">
-                <p>Lista</p>
+                <p>Umieszczanie kodu</p>
             </h2>
             <div class="color_background_full_white color_text_dark_gray">
-                <p>Na tej podstronie zostały opisane listy.</p>
+                <p>Na tej podstronie jest opisane w jaki sposób można umieszczać kod na stronie</p>
             </div>
-            <div id="uporzadkowana">
+            <div id="kod">
                 <h2 class="color_text_dark_gray">
-                    <p>Lista uporządkowana</p>
+                    <p>Kod</p>
                 </h2>
-                <p class="color_background_full_white">Do stworzenia listy uporządkowanej należy użyć znacznika <span class="select">ol</span>. Wewnątrz tego znacznika do stworzenia elementów listy należy używać znacznika <span class="select">li</span>.</p>
+                <p class="color_background_full_white">Kod na stronie można umieszczać wewnątrz elementu <span class="select">div</span> z klasą <span class="select">code</span>. Wewnątrz tego elementu należy umieścić znacznik <span class="select">p</span>. Jeżeli zależy nam na prawidłowym formatowaniu tekstu przez stronę można użyć znacznika <span class="select">pre</span>. Wewnątrz znacznika <span class="select">p</span> lub <span class="select">pre</span> można umieszczać interesujący nas kod.</p>
                 <table>
                     <tr>
                         <th>Kod</th>
@@ -102,120 +102,44 @@
                         <td>
                             <div class="code">
                                 <pre>
-&lt;ol&gt;
-    &lt;li&gt;Element listy&lt;/li&gt;
-    &lt;li&gt;Element listy&lt;/li&gt;
-    &lt;li&gt;Element listy&lt;/li&gt;
-&lt;/ol&gt;
+&lt;div class="code"&gt;
+    &lt;p&gt;
+        Tutaj jest kod 
+        strony
+    &lt;/p&gt;
+&lt;/div&gt;
                                 </pre>
                             </div>
                         </td>
-                        <td>
-                            <ol>
-                                <li>Element listy</li>
-                                <li>Element listy</li>
-                                <li>Element listy</li>
-                            </ol>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div id="nieuporzadkowana">
-                <h2 class="color_text_dark_gray">
-                    <p>Lista nieuporządkowana</p>
-                </h2>
-                <p class="color_background_full_white">Do stworzenia listy nieuporządkowanej należy użyć znacznika <span class="select">ul</span>. Wewnątrz tego znacznika do stworzenia elementów listy należy używać znacznika <span class="select">li</span>.</p>
-                <table>
-                    <tr>
-                        <th>Kod</th>
-                        <th>Wynik</th>
-                    </tr>
-                    <tr>
                         <td>
                             <div class="code">
-                                <pre>
-&lt;ul&gt;
-    &lt;li&gt;Element listy&lt;/li&gt;
-    &lt;li&gt;Element listy&lt;/li&gt;
-    &lt;li&gt;Element listy&lt;/li&gt;
-&lt;/ul&gt;
-                                </pre>
+                                <p>
+                                    Tutaj jest kod
+                                    strony
+                                </p>
                             </div>
-                        </td>
-                        <td>
-                            <ul>
-                                <li>Element listy</li>
-                                <li>Element listy</li>
-                                <li>Element listy</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div id="polaczenie_list">
-                <h2 class="color_text_dark_gray">
-                    <p>Połączenie list ze sobą</p>
-                </h2>
-                <p class="color_background_full_white">Jeżeli chcemy umieścić jedną listę w drugiej należy zagnieździć jedną listę w środku drugiej wewnątrz elementu <span class="select">li</span>.</p>
-                <table>
-                    <tr>
-                        <th>Kod</th>
-                        <th>Wynik</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="code">
-                                <pre>
-&lt;ul&gt;
-    &lt;li&gt;
-        &lt;ol&lt;
-            &lt;li&gt;Element listy zagnieżdżonej&lt;/li&gt;
-        &lt;/ol&lt;
-    &lt;/li&gt;
-    &lt;li&gt;Element listy głównej&lt;/li&gt;
-&lt;/ul&gt;
-                                </pre>
-                            </div>
-                        </td>
-                        <td>
-                            <ul>
-                                <li>
-                                    <ol>
-                                        <li>
-                                            Element listy zagnieżdżonej
-                                        </li>
-                                    </ol>
-                                </li>
-                                <li>Element listy głównej</li>
-                            </ul>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <div class="code">
                                 <pre>
-&lt;ol&gt;
-    &lt;li&gt;
-        &lt;ul&lt;
-            &lt;li&gt;Element listy zagnieżdżonej&lt;/li&gt;
-        &lt;/ul&lt;
-    &lt;/li&gt;
-    &lt;li&gt;Element listy głównej&lt;/li&gt;
-&lt;/ol&gt;
+&lt;div class="code"&gt;
+    &lt;pre&gt;
+        Tutaj jest kod 
+        strony
+    &lt;/pre&gt;
+&lt;/div&gt;
                                 </pre>
                             </div>
                         </td>
                         <td>
-                            <ol>
-                                <li>
-                                    <ul>
-                                        <li>
-                                            Element listy zagnieżdżonej
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>Element listy głównej</li>
-                            </ol>
+                            <div class="code">
+                                <pre>
+        Tutaj jest kod
+        strony
+                                </pre>
+                            </div>
                         </td>
                     </tr>
                 </table>

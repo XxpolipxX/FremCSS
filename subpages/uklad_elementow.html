@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>FremCSS</title>
-    <link rel="stylesheet" href="../style/main.css">
-    <script src="../scripts/main.js"></script>
+    <link rel="stylesheet" href="../fremcss/style/main.css">
+    <script src="../fremcss/scripts/main.js"></script>
 </head>
 <body>
     <div class="logo"></div>
@@ -83,16 +83,19 @@
     <div class="main">
         <div>
             <h2 class="color_text_dark_gray">
-                <p>Obramowanie</p>
+                <p>Układ elementów</p>
             </h2>
             <div class="color_background_full_white color_text_dark_gray">
-                <p>Na tej podstronie są opisane style dla obramowań</p>
+                <p>Na tej podstronie zostały opisane możliwe układy elementów na stronie.</p>
             </div>
-            <div id="obramowanie">
+            <div id="uklad_elementow">
                 <h2 class="color_text_dark_gray">
-                    <p>Obramowanie</p>
+                    <p>Układ elementów</p>
                 </h2>
-                <p class="color_background_full_white">Do tworzenia obramowania można używać dowolnego znacznika z odpowiednią klasą. Do pełnego obramowania należy użyć klasy <span class="select">border_full</span>. Do obramowania od góry należy użyć klasy <span class="select">border_top</span>. Do obramowania od dołu należy użyć klasy <span class="select">border_bottom</span>. Do obramowania od lewej strony należy użyć klasy <span class="select">border_left</span>. Do obramowania z prawej strony należy użyć klasy <span class="select">border_right</span>. Klasy można ze sobą łączyć.</p>
+                <p class="color_background_full_white">Do ustawienia układu elementów wewnątrz innego elementu np. <span class="select">div</span> należy użyć odpowiedniej klasy. Klasy ustalają na ile kolumn podzielić dany element. Przykładowy klasy: <span class="select">collumns_1</span>, <span class="select">collumns_2</span> do <span class="select">collumns_6</span>.</p>
+                <h2 class="color_text_dark_gray">
+                    <p>Przykład</p>
+                </h2>
                 <table>
                     <tr>
                         <th>Kod</th>
@@ -101,26 +104,52 @@
                     <tr>
                         <td>
                             <div class="code">
-                                <p>&lt;div class="border_full"&gt;Pełne obramowanie&lt;/div&gt;</p>
+                                <p>&lt;div class="collumns_2"&gt;&lt;div&gt;Jedna kolumna&lt;/div&gt;&lt;div&gt;Druga kolumna&lt;/div&gt&lt;/div&gt;</p>
                             </div>
                         </td>
-                        <td><div class="border_full">Pełne obramowanie</div></td>
+                        <td>
+                            <div class="collumns_2"><div>Jedna kolumna</div><div>Druga kolumna</div></div>
+                        </td>
                     </tr>
                     <tr>
                         <td>
                             <div class="code">
-                                <p>&lt;div class="border_right"&gt;Obramowanie z prawej strony&lt;/div&gt;</p>
+                                <p>&lt;div class="collumns_3"&gt;&lt;div&gt;Jedna kolumna&lt;/div&gt;&lt;div&gt;Druga kolumna&lt;/div&gt&lt;&lt;div&gt;Trzecia kolumna&lt;/div&gt&lt;/div&gt;</p>
                             </div>
                         </td>
-                        <td><div class="border_right">Obramowanie z prawej strony</div></td>
+                        <td>
+                            <div class="collumns_3"><div>Jedna kolumna</div><div>Druga kolumna</div><div>Trzecia kolumna</div></div>
+                        </td>
                     </tr>
                     <tr>
                         <td>
                             <div class="code">
-                                <p>&lt;div class="border_right border_top"&gt;Obramowanie z prawej strony i od góry&lt;/div&gt;</p>
+                                <p>&lt;div class="collumns_4"&gt;&lt;div&gt;Jedna kolumna&lt;/div&gt;&lt;div&gt;Druga kolumna&lt;/div&gt&lt;&lt;div&gt;Trzecia kolumna&lt;/div&gt;&lt;&lt;div&gt;Czwarta kolumna&lt;/div&gt;&lt;/div&gt;</p>
                             </div>
                         </td>
-                        <td><div class="border_right border_top">Obramowanie z prawej strony i od góry</div></td>
+                        <td>
+                            <div class="collumns_4"><div>Jedna kolumna</div><div>Druga kolumna</div><div>Trzecia kolumna</div><div>Czwarta kolumna</div></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;div class="collumns_5"&gt;&lt;div&gt;Jedna kolumna&lt;/div&gt;&lt;div&gt;Druga kolumna&lt;/div&gt;&lt;&lt;div&gt;Trzecia kolumna&lt;/div&gt;&lt;&lt;div&gt;Czwarta kolumna&lt;/div&gt;&lt;&lt;div&gt;Piąta kolumna&lt;/div&gt;&lt;/div&gt;</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="collumns_5"><div>Jedna kolumna</div><div>Druga kolumna</div><div>Trzecia kolumna</div><div>Czwarta kolumna</div><div>Piąta kolumna</div></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;div class="collumns_6"&gt;&lt;div&gt;Jedna kolumna&lt;/div&gt;&lt;div&gt;Druga kolumna&lt;/div&gt&lt;&lt;div&gt;Trzecia kolumna&lt;/div&gt&lt;&lt;div&gt;Czwarta kolumna&lt;/div&gt&lt;&lt;div&gt;Piąta kolumna&lt;/div&gt;&lt;div&gt;Szósta kolumna&lt;/div&gt;&lt;/div&gt;</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="collumns_6"><div>Jedna kolumna</div><div>Druga kolumna</div><div>Trzecia kolumna</div><div>Czwarta kolumna</div><div>Piąta kolumna</div><div>Szósta kolumna</div></div>
+                        </td>
                     </tr>
                 </table>
             </div>
