@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>FremCSS</title>
+    <link rel="stylesheet" href="../fremcss/style/main.css">
+    <script src="../fremcss/scripts/main.js"></script>
+</head>
+<body>
+    <div class="logo"></div>
+    <div class="top_menu">Dokumentacja techniczna Frameworka FremCSS</div>
+
+    <div class="menu">
+        <h1><a href="../../main.html">Menu</a></h1>
+
+        <h2 class="border_top collumns_1">
+            FremCSS
+            <a href="./instalacja.html#instalacja">Instalacja</a>
+            <a href="./instalacja.html#konfiguracja">Konfiguracja</a>
+        </h2>
+        
+        <h2 class="border_top collumns_1">
+            Szablon
+            <a href="./szablon.html#struktura">Struktura</a>
+            <a href="./szablon.html#logotyp">Logotyp</a>
+            <a href="./szablon.html#panel_gora">Panel górny</a>
+            <a href="./szablon.html#menu_boczne">Menu boczne</a>
+            <a href="./szablon.html#panel_centralny">Panel centralny</a>
+            <a href="./szablon.html#wersja">Wersja</a>
+            <a href="./szablon.html#stopka">Stopka</a>
+        </h2>
+
+        <h2 class="border_top collumns_1">
+            Menu boczne
+            <a href="./menu_boczne.html#naglowek">Nagłówek</a>
+            <a href="./menu_boczne.html#odsylacze">Odsyłacze</a>
+        </h2>
+
+        <h2 class="border_top collumns_1">
+            Tekst
+            <a href="./tekst.html#naglowki">Nagłówki</a>
+            <a href="./tekst.html#rozmiary">Rozmiary</a>
+            <a href="./tekst.html#kolory">Kolory</a>
+            <a href="./tekst.html#centrowanie_tekstu">Centrowanie tekstu</a>
+        </h2>
+
+        <h2 class="border_top collumns_1">
+            Tabela
+            <a href="./tabela.html#tabela">Szablon</a>
+        </h2>
+
+        <h2 class="border_top collumns_1">
+            Lista
+            <a href="./lista.html#uporzadkowana">Lista uporządkowana</a>
+            <a href="./lista.html#nieuporzadkowana">Lista nieuporządkowana</a>
+        </h2>
+
+        <h2 class="border_top collumns_1">
+            Formularz
+            <a href="./formularz.html#formularz_szablon">Szablon</a>
+            <a href="./formularz.html#formularz_etykiety">Etykiety</a>
+            <a href="./formularz.html#formularz_pola">Pola</a>
+        </h2>
+        <h2 class="border_top collumns_1">
+            Obramowanie
+            <a href="./obramowanie.html#obramowanie">Obramowanie</a>
+        </h2>
+        <h2 class="border_top collumns_1">
+            Układ elementów
+            <a href="./uklad_elementow.html#uklad_elementow">Układ elementów</a>
+        </h2>
+        <h2 class="border_top collumns_1">
+            Kod
+            <a href="./kod.html#kod">Umieszczanie kodu</a>
+        </h2>
+        <h2 class="border_top collumns_1">
+            Obrazy
+            <a href="./obrazy.html#obraz">Obraz img</a>
+            <a href="./obrazy.html#figure">Obraz figure</a>
+        </h2>
+    </div>
+
+    <div class="main">
+        <div>
+            <h2 class="color_text_dark_gray">
+                <p>Tekst</p>
+            </h2>
+            <div class="color_background_full_white color_text_dark_gray">
+                <p>Na tej podstronie są opisane style dla tekstu i czcionki</p>
+            </div>
+            <div id="naglowki">
+                <h2 class="color_text_dark_gray">
+                    <p>Nagłówki</p>
+                </h2>
+                <p class="color_background_full_white">Do nagłówków można używać znaczników takich jak <span class="select">h1</span>, <span class="select">h2</span>, <span class="select">h3</span>, <span class="select">h4</span>, <span class="select">h5</span> lub <span class="select">h6</span>.</p>
+                <table>
+                    <tr>
+                        <th>Kod</th>
+                        <th>Wynik</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;h1&gt;Nagłówek h1&lt;/&gt;</p>
+                            </div>
+                        </td>
+                        <td><h1>Nagłówek h1</h1></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;h2&gt;Nagłówek h2&lt;/&gt;</p>
+                            </div>
+                        </td>
+                        <td><h2>Nagłówek h2</h2></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;h3&gt;Nagłówek h3&lt;/&gt;</p>
+                            </div>
+                        </td>
+                        <td><h3>Nagłówek h3</h3></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;h4&gt;Nagłówek h4&lt;/&gt;</p>
+                            </div>
+                        </td>
+                        <td><h4>Nagłówek h4</h4></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;h5&gt;Nagłówek h5&lt;/&gt;</p>
+                            </div>
+                        </td>
+                        <td><h5>Nagłówek h5</h5></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;h6&gt;Nagłówek h6&lt;/&gt;</p>
+                            </div>
+                        </td>
+                        <td><h6>Nagłówek h6</h6></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="rozmiary">
+                <h2 class="color_text_dark_gray">
+                    <p>Rozmiary</p>
+                </h2>
+                <p class="color_background_full_white">Do rozmiariu czcionki można używać znacznika <span class="select">p</span> i odpowiedniej klasy odpowiadającej za rozmiar tekstu.</p>
+                <table>
+                    <tr>
+                        <th>Kod</th>
+                        <th>Wynik</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="font_size_larger"&gt;Bardzo duża czcionka&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="font_size_larger">Bardzo duża czcionka</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="font_size_large"&gt;Duża czcionka&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="font_size_large">Duża czcionka</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="font_size_normal"&gt;Normalna czcionka&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="font_size_normal">Normalna czcionka</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="font_size_small"&gt;Mała czcionka&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="font_size_small">Mała czcionka</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="font_size_smaller"&gt;Bardzo mała czcionka&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="font_size_smaller">Bardzo mała czcionka</p></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="kolory">
+                <h2 class="color_text_dark_gray">
+                    <p>Kolory</p>
+                </h2>
+                <p class="color_background_full_white">Do rozmiariu czcionki można używać znacznika <span class="select">p</span> i odpowiedniej klasy odpowiadającej za kolor tekstu.</p>
+                <table>
+                    <tr>
+                        <th>Kod</th>
+                        <th>Wynik</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="color_text_dark_gray"&gt;Czcionka koloru ciemnoszarego&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="color_text_dark_gray">Czcionka koloru ciemnoszarego</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="color_text_gray"&gt;Czcionka koloru szarego&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="color_text_gray">Czcionka koloru szarego</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="color_text_light_gray"&gt;Czcionka koloru jasnoszarego&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="color_text_light_gray">Czcionka koloru jasnoszarego</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="color_text_lighter_gray"&gt;Czcionka koloru bardzo jasnoszarego&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="color_text_lighter_gray">Czcionka koloru bardzo jasnoszarego</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="color_text_white"&gt;Czcionka koloru białego&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="color_text_white color_background_dark_gray">Czcionka koloru białego</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="color_text_full_white"&gt;Czcionka koloru pełnej bieli&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="color_text_full_white color_background_dark_gray">Czcionka koloru pełnej bieli</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="color_text_red"&gt;Czcionka koloru czerwonego&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="color_text_red">Czcionka koloru czerwonego</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="color_text_blue"&gt;Czcionka koloru niebieskiego&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="color_text_blue">Czcionka koloru niebieskiego</p></td>
+                    </tr>
+                </table>
+                <h2 class="color_text_dark_gray">
+                    <p>Efekty hover</p>
+                </h2>
+                <p class="color_background_full_white">Do efektów hover można używać znacznika <span class="select">p</span> i odpowiedniej klasy odpowiadającej za efekt hover.</p></p>
+                <table>
+                    <tr>
+                        <th>Kod</th>
+                        <th>Wynik</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="color_background_hover_dark_gray"&gt;Najedź, aby zmienić tło na ciemnoszare&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="color_background_hover_dark_gray">Najedź, aby zmienić tło na ciemnoszare</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="color_background_hover_gray"&gt;Najedź, aby zmienić tło na szare&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="color_background_hover_gray">Najedź, aby zmienić tło na szare</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="color_background_hover_light_gray"&gt;Najedź, aby zmienić tło na jasnoszare&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="color_background_hover_light_gray">Najedź, aby zmienić tło na jasnoszare</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="color_background_hover_lighter_gray"&gt;Najedź, aby zmienić tło na bardzo jasnoszare&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="color_background_hover_lighter_gray">Najedź, aby zmienić tło na bardzo jasnoszare</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="color_background_hover_white"&gt;Najedź, aby zmienić tło na białe&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="color_background_hover_white color_background_dark_gray">Najedź, aby zmienić tło na białe</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="color_background_hover_full_white"&gt;Najedź, aby zmienić tło na pełną biel&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="color_background_hover_full_white color_background_dark_gray">Najedź, aby zmienić tło na pełną biel</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="color_background_hover_red"&gt;Najedź, aby zmienić tło na czerwone&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="color_background_hover_red">Najedź, aby zmienić tło na czerwone</p></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="color_background_hover_blue"&gt;Najedź, aby zmienić tło na niebieskie&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td><p class="color_background_hover_blue">Najedź, aby zmienić tło na niebieskie</p></td>
+                    </tr>
+                </table>
+                
+            </div>
+            <div id="centrowanie_tekstu">
+                <h2 class="color_text_dark_gray">
+                    <p>Centrowanie tekstu</p>
+                </h2>
+                <p class="color_background_full_white">Do centrowania tekstu można użyć znacznika <span class="select">p</span> z klasą <span class="select">font_horizontal_center</span>. Do wyrównania tekstu do lewej lub prawej również można użyć znacznika <span class="select">p</span> z klasami odpowiednio <span class="select">font_left</span> i <span class="select">font_right</span></p>
+                <table>
+                    <tr>
+                        <th>Kod</th>
+                        <th>Wynik</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="font_horizontal_center"&gt;Wycentrowany tekst&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="font_horizontal_center">Wycentrowany tekst</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="font_right"&gt;Tekst wyrównany do prawej&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="font_right">Tekst do prawej</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>&lt;p class="font_left"&gt;Tekst wyrównany do lewej&lt;/p&gt;</p>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="font_left">Tekst do lewej</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="oznaczenie">
+                <h2 class="color_text_dark_gray">
+                    <p>Oznaczanie wybranej części tekstu</p>
+                </h2>
+                <p class="color_background_full_white">Do oznaczania wybranej części tekstu można użyć znacznika <span class="select">span</span> z klasą <span class="select">select</span></p>
+                <table>
+                    <tr>
+                        <th>Kod</th>
+                        <th>Wynik</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="code">
+                                <p>Nie zaznaczony tekst&lt;span class="select"&gt;Zaznaczony tekst&lt;/span&gt;</p>
+                            </div>
+                        </td>
+                        <td>Nie zaznaczony tekst <span class="select">Zaznaczony tekst</span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="version">Obecna wersja: 1.0.0.4</div>
+    <div class="footer">FremCSS</div>
+</body>
+</html>

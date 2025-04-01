@@ -1,0 +1,27 @@
+img {
+    width: 100%;
+    height: auto;
+    background-color: inherit;
+    color: inherit;
+}
+
+figure {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: inherit;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure > img {
+    width: 100%;
+    height: auto;
+}
+
+figure > figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: inherit;
+}
