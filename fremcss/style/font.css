@@ -1,9 +1,9 @@
-.font_size_normal {font-size: 1em;}
-.font_size_large {font-size: 1.5em;}
-.font_size_larger {font-size: 2em;}
-.font_size_small {font-size: 0.5em;}
-.font_size_smaller {font-size: 0.3em;}
+.font_size_normal {font-size: 1em !important}
+.font_size_large {font-size: 1.5em !important}
+.font_size_larger {font-size: 2em !important}
+.font_size_small {font-size: 0.5em !important}
+.font_size_smaller {font-size: 0.3em !important}
 
-.font_horizontal_center {text-align: center;}
-.font_right {text-align: right;}
-.font_left {text-align: left;}
+.font_horizontal_center {text-align: center !important}
+.font_right {text-align: right !important}
+.font_left {text-align: left !important}

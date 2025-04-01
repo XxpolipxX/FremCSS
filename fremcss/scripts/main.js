@@ -1,12 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll(".code").forEach(codeBlock => {
+    const codeBlocks = document.querySelectorAll(".code");
+    if (codeBlocks.length === 0) return;
+
+    codeBlocks.forEach(codeBlock => {
         let button = document.createElement("button");
         button.classList.add("copy_button");
         button.innerText = "Kopiuj kod";
 
         button.addEventListener("click", () => {
             let codeElements = codeBlock.querySelectorAll("pre, p");
-            if(!codeElements.length) return;
+            if (!codeElements.length) return;
 
             let codeText = Array.from(codeElements)
                 .map(el => el.innerText)

@@ -10,6 +10,9 @@ figure {
     padding: 10px;
     background-color: inherit;
     color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 figure > img {
@@ -18,6 +21,7 @@ figure > img {
 }
 
 figure > figcaption {
+    text-align: center;
     margin-top: 10px;
     font-size: inherit;
 }

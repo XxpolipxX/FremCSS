@@ -38,7 +38,7 @@ input[type="submit"] {
     transition: 0.3s;
 }
 
-input[type="submit"]:hover {background-color: #fc307b;}
+input[type="submit"]:hover {background-color: var(--color-pink);}
 
 form > .checkbox-container {
     display: flex;

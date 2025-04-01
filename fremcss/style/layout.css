@@ -95,29 +95,35 @@ body {
 .collumns_1 {
     display: grid;
     grid-template-columns: repeat(1, 100%);
+    gap: 10px;
 }
 
 .collumns_2 {
     display: grid;
     grid-template-columns: repeat(2, 50%);
+    gap: 10px;
 }
 
 .collumns_3 {
     display: grid;
     grid-template-columns: repeat(3, 30%);
+    gap: 10px;
 }
 
 .collumns_4 {
     display: grid;
     grid-template-columns: repeat(4, 25%);
+    gap: 10px;
 }
 
 .collumns_5 {
     display: grid;
     grid-template-columns: repeat(5, 20%);
+    gap: 10px;
 }
 
 .collumns_6 {
     display: grid;
     grid-template-columns: repeat(6, 16%);
+    gap: 10px;
 }
