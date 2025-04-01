@@ -156,8 +156,8 @@
             <h3>
                 <ul>
                     <li>Możesz nam wysłać lub podarować karmę dla zwierząt. <a href="#znajdz_nas" class="color_text_red">Znajdź nas</a></li>
-                    <li>Możesz zostać wolontariuszem</li>
-                    <li>Możesz także udostępniać i podawać dalej informacje o nas</li>
+                    <li>Możesz zostać wolontariuszem <a href="#kontakt" class="color_text_red">Skontaktuj się z nami</a></li>
+                    <li>Możesz także udostępniać i podawać dalej informacje o nas <a href="#znajdz_nas" class="color_text_red">Znajdź nas</a></li>
                     <li>Akceptujemy także pomoc finansową <a href="#kontakt" class="color_text_red">Skontaktuj się z nami</a></li>
                 </ul>
             </h3>
@@ -165,6 +165,17 @@
 
         <div id="kontakt" class="border_top border_bottom">
             <h1 class="font_horizontal_center">Skontaktuj się z nami</h1>
+            <form>
+                <label for="imie">Imię</label>
+                <input type="text" name="imie" placeholder="Wpisz swoje imię" required>
+                <label for="nazwisko">Nazwisko</label>
+                <input type="text" name="nazwisko" placeholder="Wpisz swoje nazwisko" required>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" placeholder="Wpisz swój adres e-mail" required>
+                <label for="wiadomosc">Wiadomość</label>
+                <textarea name="wiadomosc" required placeholder="Wpisz swoją wiadomośc"></textarea>
+                <input type="submit" value="Wyślij wiadomość">
+            </form>
         </div>
 
         <div id="znajdz_nas" class="border_top border_bottom">
