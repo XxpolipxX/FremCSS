@@ -10,11 +10,13 @@ figure {
     padding: 10px;
     background-color: inherit;
     color: inherit;
+    display: block;
+    max-width: 100%;
 }
 
 figure > img {
-    width: 100%;
-    height: auto;
+    display: block;
+    max-width: 100%;
 }
 
 figure > figcaption {
