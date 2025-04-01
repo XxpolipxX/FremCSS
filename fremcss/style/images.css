@@ -10,9 +10,6 @@ figure {
     padding: 10px;
     background-color: inherit;
     color: inherit;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 figure > img {
